@@ -16,14 +16,10 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
-                    @role('admin')
-                    <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
-                        {{ __('Admin') }}
+
+                    <x-nav-link :href="route('ad')" :active="request()->routeIs('ad')">
+                        {{ __('ad') }}
                     </x-nav-link>
-                    @endrole 
-
-
-
                 </div>
             </div>
 

@@ -23,11 +23,11 @@ class AdminSeeder extends Seeder
 
 
         User::create([
-            'name' => 'user',
-            'email' => 'test@test.com',
+            'name' => 'admin',
+            'email' => 'admin@admin.com',
             'email_verified_at' => now(),
             'password' => bcrypt('11111111'),
-        ]);
+        ])->assignRole('writer','admin');
 
     }
 }

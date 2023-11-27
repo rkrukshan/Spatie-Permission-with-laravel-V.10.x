@@ -27,7 +27,7 @@ class AdminSeeder extends Seeder
             'email' => 'test@test.com',
             'email_verified_at' => now(),
             'password' => bcrypt('11111111'),
-        ]);
+        ])->assignRole('writer','admin');
 
     }
 }
