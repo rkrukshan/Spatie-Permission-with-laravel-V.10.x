@@ -53,7 +53,7 @@
                     </nav>
             </div>
             <div class="flex w-full bg-slate-50">
-               {{ $slot }}
+               {{ $slot }}</h1>
             </div>
         </div>
     </body>

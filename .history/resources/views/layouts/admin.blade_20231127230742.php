@@ -47,13 +47,14 @@
                                             {{ __('Log Out') }}
                                         </x-dropdown-link>
                                     </form>
+
                                 </div>
                             </div>
                         </div>
                     </nav>
             </div>
             <div class="flex w-full bg-slate-50">
-               {{ $slot }}
+                <h1>Content</h1>
             </div>
         </div>
     </body>
